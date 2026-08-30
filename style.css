@@ -1,0 +1,111 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header / Hero */
+header {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+.highlight {
+    color: #00d2ff;
+}
+
+.hero h2 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 15px;
+    opacity: 0.9;
+}
+
+.hero p {
+    font-size: 1rem;
+    max-width: 500px;
+    margin: 0 auto 20px;
+    opacity: 0.8;
+}
+
+.btn {
+    display: inline-block;
+    background: #00d2ff;
+    color: #000;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+/* Services & Portfolio */
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+    color: #1e3c72;
+}
+
+.service-box, .work-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card, .work-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    text-align: left;
+}
+
+.card h3, .work-card h3 {
+    color: #2a5298;
+    margin-bottom: 8px;
+}
+
+/* Footer / Contact */
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+footer h2 {
+    color: #00d2ff;
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin-bottom: 8px;
+    opacity: 0.8;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 0.85rem;
+    opacity: 0.5;
+  }
